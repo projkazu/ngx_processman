@@ -1,9 +1,9 @@
 #ngx_processman
 ---------------------------------------
 ##Nginxモジュール。 インストール後もNginxモジュール追加可能になります。.htaccessを読むこともできるようになります。nginx.confでhttpd.confのsyntaxが使用可能になります。PHPはインストールされていれさえすればインストール後、設定なしで使えるようになります。また、SuExecらしきものが使えるようになります。
-例えば、Nginxモジュールの追加コマンド。その前にコンパイルしておいてください。
-sudo ngxs -i ./ngx_pagespeed.so
+###例えば、Nginxモジュールの追加コマンド。その前にコンパイルしておいてください。
 ---
+####sudo ngxs -i ./ngx_pagespeed.so
 ##コンパイル方法
 ####./configure --add-module-../ngx_processman
 ###コンパイルオプション
